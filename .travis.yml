@@ -6,5 +6,5 @@ install:
 script: python tests.py 
 deploy:
   provider: heroku
-  api_key: e641c6c9-cf73-4166-bf8d-9cd1351de104
-  app: myrsoi
+  api_key: e45ed230-a1c7-43ab-9430-bf38d67b8f10
+  app: qwertyuio1234567
