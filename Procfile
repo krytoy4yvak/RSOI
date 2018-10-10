@@ -1,0 +1,1 @@
+web: python Program/Lab1PY.py runserver 0.0.0.0:33507 
