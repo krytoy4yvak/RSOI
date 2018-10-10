@@ -11,6 +11,9 @@ class Mytests(unittest.TestCase):
         self.assertTrue('l' in a)
         self.assertFalse('k' in a)
 
-
+    def test3(self):
+        self.assertAlmostEqual(hello.func1(),'Hello World!!!')
+    def test4(self):
+        self.assertAlmostEqual(hello.func2(),'I~ts a trap!!')
 if __name__ == '__main__':
     unittest.main()
