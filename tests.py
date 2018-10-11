@@ -7,13 +7,12 @@ class Mytests(unittest.TestCase):
         self.assertEqual(12*154-8898, -7050)
 
     def test2(self):
-        a ='Hello world'
+        a =hello.func1()
         self.assertTrue('l' in a)
         self.assertFalse('k' in a)
 
     def test3(self):
         self.assertAlmostEqual(hello.func1(),'Hello World!!!')
-    def test4(self):
-        self.assertAlmostEqual(hello.func2(),'I~ts a trap!!')
+    
 if __name__ == '__main__':
     unittest.main()
