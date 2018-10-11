@@ -10,9 +10,9 @@ app = Flask(__name__)
 def func1():
     return 'Hello World!!!'
 
-@app.route('/trubles')
-def func2():
-    return 'I~ts a trap!!'
+@app.route('/<name>')
+def func2(name):
+    return name
 
 
 
